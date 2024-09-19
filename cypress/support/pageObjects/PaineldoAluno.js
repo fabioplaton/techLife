@@ -1,7 +1,7 @@
 class PainelDoAluno {
 
-    Aula9QA(){
-        cy.get('[id="class_2"]').click()
+    Aula1(){
+        cy.get('[id="class_0"]').click()
     }
 
     verificarListaAulas(){
@@ -13,7 +13,7 @@ class PainelDoAluno {
     }
 
     verificarSeAula9QA() {
-        cy.get('h2[_ngcontent-ng-c3282749832]').should('contains.text', 'Aula 6 turma 9 QA')
+        cy.get('h2[_ngcontent-ng-c3282749832]').should('contains.text', 'Aula 1 test')
     }
 
     verficarArquivosDownloads() {
