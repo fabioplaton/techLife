@@ -140,7 +140,7 @@ describe('login', () => {
   it('TC10 - Login com usuário bloqueado - Login with blocked user', () => {
     //preenchendo o campo email
     //filling in the email field
-    loginpage.alunoEmail('bloqueado@techlife.com')
+    loginpage.alunoEmail('fabio.bloqueado@techlife.com')
     //preenchendo o campo senha
     //filling in the password field
     loginpage.alunoSenha(config.password)
